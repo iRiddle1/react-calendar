@@ -1,0 +1,40 @@
+.priority-circle {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &--active {
+    border: 1.5px solid rgb(189, 71, 71);
+    transform: scale(1.1);
+  }
+
+  &:hover {
+    border: 1.5px solid rgb(189, 71, 71);
+    transition: 0.2s;
+    transform: scale(1.1);
+  }
+
+  &--critical {
+    background-color: #FF5E64;
+  }
+
+  &--high {
+    background-color: #FAB95B;
+  }
+
+  &--medium {
+    background-color: #978AE6;
+  }
+
+  &--low {
+    background-color: #40A580;
+  }
+
+  &--none {
+    background-color: #E1DEDE;
+  }
+}

@@ -1,0 +1,47 @@
+.badge-event {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  border: none;
+  background-color: rgba(242, 107, 81, 0.12);
+  border-radius: 4px;
+  padding: 4px;
+  margin-bottom: 6px;
+  cursor: pointer;
+
+  @media (max-width: 767px) {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-bottom: 3px;
+  }
+
+  &--critical {
+    color: #ff3e45;
+    background-color: #ff9a9d;
+  }
+
+  &--high {
+    color: #ffa629;
+    background-color: #ffce8a;
+  }
+
+  &--medium {
+    color: #5b42ff;
+    background-color: #ada1ff;
+  }
+
+  &--low {
+    color: #40a37f;
+    background-color: #96ffd8;
+  }
+
+  &--none {
+    color: #000000;
+    background-color: #E1DEDE;
+  }
+}
